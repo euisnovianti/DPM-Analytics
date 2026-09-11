@@ -1,0 +1,92 @@
+/* Import Font Inter & Google Material Symbols */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Material Symbols Rendering */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+/* Bento Card Style - OKR Flat Gray */
+.bento-card {
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.bento-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
+.bento-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.bento-sub {
+    font-size: 11px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+/* Left Info Header Style */
+.info-header {
+    background-color: #dbeafe; /* light blue like the template */
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.info-header h3 {
+    color: #1e3a8a;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.info-header p {
+    color: #3b82f6;
+    margin: 4px 0;
+    font-size: 12px;
+}
+
+/* Tabel Styler Override - Akan dipakai via pandas Styler atau dataframe config, tapi kita taruh class jika dipakai */
+.teal-header th {
+    background-color: #0f766e !important;
+    color: white !important;
+}
+
+/* Header & Sidebar Polish */
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2px;
+}
+
+.dashboard-title {
+    margin: 0;
+    color: #191c1e;
+    font-weight: 700;
+}
+
+.dashboard-subtitle {
+    color: #444653;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/* Garis Pemisah Halus */
+.siperti-divider {
+    margin: 12px 0 20px 0;
+    border: none;
+    border-top: 1px solid #c4c5d5;
+}
